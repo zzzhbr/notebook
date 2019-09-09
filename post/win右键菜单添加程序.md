@@ -13,4 +13,5 @@ windows右键菜单添加新的程序
 在`shell`下右键添加`项`，这里比如我添加的是`xshell`，然后在新建的这个xshell下再新建项，比如我命名的是`command`，然后点击`command`，在右边的窗口双击，在`数据数值`里添加程序的绝对路径
 ![添加过程](https://raw.githubusercontent.com/zzzhbr/notebook-image/master/notebook/2019/09/09/1568030122576-1568030122598.png)
 
-然后就能
+然后就能在右键菜单里找到我们新加的程序了
+![title](https://raw.githubusercontent.com/zzzhbr/notebook-image/master/notebook/2019/09/09/1568030166981-1568030166983.png)
