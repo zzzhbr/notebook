@@ -9,4 +9,5 @@ windows右键菜单添加新的程序
 
 按下`win+r`输入`regedit`
 然后找到
-`HKEY_CLASSES_ROOT`下面的`Directory`下面的``
+`HKEY_CLASSES_ROOT`下面的`Directory`下面的`Background`里的`shell`;
+在`shell`下右键添加`项`，
