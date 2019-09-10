@@ -27,7 +27,7 @@
  
 
 就可以正常操作了
-![title](https://raw.githubusercontent.com/zzzhbr/notebook-image/master/notebook/2019/09/10/1568088135897-1568088135901.png )
+![title](https://raw.githubusercontent.com/zzzhbr/notebook-image/master/notebook/2019/09/10/1568088135897-1568088135901.png =300x300)
 
 
  
