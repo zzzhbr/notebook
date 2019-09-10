@@ -12,22 +12,22 @@
 
 我们点击退出；之后就会来到试用界面
 
-![title](https://raw.githubusercontent.com/zzzhbr/notebook-image/master/notebook/2019/09/10/1568088077094-1568088077098.png)
+![title](https://raw.githubusercontent.com/zzzhbr/notebook-image/master/notebook/2019/09/10/1568088077094-1568088077098.png 300x300)
 
 到了这里我们就可以手动更改分辨率了；
 
 右键更改背景====>设备====>分辨率
 
-
+![title](https://raw.githubusercontent.com/zzzhbr/notebook-image/master/notebook/2019/09/10/1568088093787-1568088093789.png =300x300)
 
 然后我们可以点击安装ubuntu18.10
-
+![title](https://raw.githubusercontent.com/zzzhbr/notebook-image/master/notebook/2019/09/10/1568088126458-1568088126464.png)
 
 
  
 
 就可以正常操作了
-
+![title](https://raw.githubusercontent.com/zzzhbr/notebook-image/master/notebook/2019/09/10/1568088135897-1568088135901.png )
 
 
  
