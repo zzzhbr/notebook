@@ -39,8 +39,8 @@ c. http请求报文
 	磁盘空间不足
 		i: inode
  		ii: block
-定时任务运行教程
-	
+定时任务运行脚本失败（java（Tomcat）网站环境）
+swap不足	
 d. htp响应报文
 e. 四次挥手-断开连接
 
