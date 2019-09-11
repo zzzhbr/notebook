@@ -1,3 +1,4 @@
+
 1.负载均衡
 反向代理：nginx
 负载均衡：lvs；haproxy
@@ -30,6 +31,10 @@ b.做session会话共享
 2）跳板机：jumpserver
 3）批量管理工具
 密钥认证+pssh/ansible/saltstack
+
+小项目：
+openVPN
+haproxy
 
 
 **面试基础套路：**
