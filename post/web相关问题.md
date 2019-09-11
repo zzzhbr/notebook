@@ -10,10 +10,12 @@ nginx+自己写
 
 3后端
 1） 数据库
-MySQL
+MySQL---MHA高可用
 MongoDB
+
 2） 存储
 NFS
+
 3） 缓存
 redis/memcached
 a.缓存数据库内容
