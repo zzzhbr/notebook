@@ -10,9 +10,14 @@ nginx+自己写
 
 3后端
 1） 数据库
+MySQL
+MongoDB
 2） 存储
+NFS
 3） 缓存
 redis/memcached
+a.缓存数据库内容
+b.做session会话共享
 
 
 
