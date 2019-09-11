@@ -9,6 +9,11 @@ nginx+TOMCAT（java）
 nginx+自己写
 
 3后端
+1） 数据库
+2） 存储
+3） 缓存
+redis/memcached
+
 
 
 # 问题1：
