@@ -31,7 +31,9 @@ b.做session会话共享
 1.用户在浏览器中输入网址：www.baidu.com到显示页面的过程
 a. DNS解析
 b. 三次握手-建立连接
-c. http
+c. http请求报文
+d. htp响应报文
+e. 四次挥手-断开连接
 
 # 问题1：
 
