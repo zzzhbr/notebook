@@ -16,7 +16,9 @@ MongoDB
 2） 存储
 NFS
 a. nfs+rsync+sersync
-b. 
+b. nfs+drbd+keepalived
+c. fastdfs/MFS（用得少了）   分布式
+
 
 3） 缓存
 redis/memcached
