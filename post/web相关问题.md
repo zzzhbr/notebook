@@ -19,7 +19,9 @@ redis/memcached
 a.缓存数据库内容
 b.做session会话共享
 
-
+4.运维
+a.连接系统的通道：OpenVPN/PPTP
+跳板机
 
 # 问题1：
 
