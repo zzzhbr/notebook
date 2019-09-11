@@ -28,6 +28,7 @@ b.做session会话共享
 
 面试基础套路：
 自我介绍
+
 1.用户在浏览器中输入网址：www.baidu.com到显示页面的过程
 a. DNS解析
 b. 三次握手-建立连接
@@ -41,6 +42,7 @@ c. http请求报文
  		ii: block
 定时任务运行脚本失败（java（Tomcat）网站环境）
 swap不足	
+
 d. htp响应报文
 e. 四次挥手-断开连接
 
