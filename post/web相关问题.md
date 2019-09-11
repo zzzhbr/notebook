@@ -35,7 +35,8 @@ b.做session会话共享
 小项目：
 openVPN
 haproxy
-
+nginx+python
+fastdfs
 
 **面试基础套路：**
 自我介绍
