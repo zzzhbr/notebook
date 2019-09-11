@@ -35,7 +35,12 @@ c. http请求报文
 访问网站流程。。。
 遇到的故障案例。。。
 	搭建多个虚拟机主机nginx反向代理配置故障
-		i: proxy_set_header
+		i: proxy_set_header(搭建多个只能用一个)
+	磁盘空间不足
+		i: inode
+ 		ii: block
+定时任务运行教程
+	
 d. htp响应报文
 e. 四次挥手-断开连接
 
