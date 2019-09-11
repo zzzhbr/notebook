@@ -12,9 +12,11 @@ nginx+自己写
 1） 数据库
 MySQL---MHA高可用
 MongoDB
-
+（keepalived主要搭配lvs，一般用作没有数据的服务进行高可用）
 2） 存储
 NFS
+a. nfs+rsync+sersync
+b. 
 
 3） 缓存
 redis/memcached
