@@ -26,6 +26,10 @@ b.做session会话共享
 密钥认证+pssh/ansible/saltstack
 
 
+面试基础套路：
+自我介绍
+
+
 # 问题1：
 
 反向代理与负载均衡区别？
