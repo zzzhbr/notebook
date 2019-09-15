@@ -96,5 +96,12 @@ am
 
 `url=www.25share.com`
 `echo $url`
+将`www.`删除
+```shell
+[root@backup scripts]# echo ${url:4}
+25share.com
 
+
+
+```
 
