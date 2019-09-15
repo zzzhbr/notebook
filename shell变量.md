@@ -19,8 +19,6 @@ I am smart
 am smart
 [root@backup scripts]# echo ${Valure:2:2} #将从第3个字符开始取后面2个字符
 am
-
-
 ```
  
 
