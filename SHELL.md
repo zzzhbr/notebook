@@ -15,7 +15,7 @@ test.sh
 
 ```
 ```shell
-basename：无论是否全路径，获取的都是名字
+dirname：无论是否全路径，获取的都是路径名
 [ ]# basename test.sh
 test.sh
 [ ]# basename /server/scripts/test.sh
