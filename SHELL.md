@@ -105,4 +105,3 @@ dog
 # read从键盘读取参数
 > read -p "提示信息： " "变量名"
 
-<font color=red>red</font>
