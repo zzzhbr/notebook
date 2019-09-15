@@ -45,7 +45,7 @@ I am smart
 10
 ```
 
-# 变量内容删除
+# 变量内容删除替换
 
 ## 变量内容切片${Valure:N}
 ```shell
@@ -55,7 +55,8 @@ am smart
 am
 ```
  
-# 变量内容替换
-
+## 变量内容删除
+url=www.25share.com
+echo $url
 
 
