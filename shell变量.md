@@ -143,10 +143,12 @@ www,25share,com
 
 
 
-例子：
+例子二：
 URL=www.25.com.share.com.25
+符合旧字符串的 com 第一个匹配到的会被新字符串 cn 取代
 [root@backup scripts]# echo ${URL/com/cn}
 www.25.cn.share.com.25
+符合旧字符串的 com 全部匹配到的会被新字符串 cn 取代
 [root@backup scripts]# echo ${URL//com/cn}
 www.25.cn.share.cn.25
 ```
