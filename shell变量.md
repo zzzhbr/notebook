@@ -83,6 +83,24 @@ am
 |${Valure#匹配规则}|从变量**开头**进行匹配,把匹配到的 **第一个的** 前面的内容全部删除|
 |${Valure##匹配规则}|从变量**开头**进行匹配,把匹配到的 **最后一个的** 前面的内容全部删除|
 
+```shell
+将www.删除
+[root@backup scripts]# echo ${url#*.}
+25share.com
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
 
 3. 结尾开始匹配
 
@@ -110,10 +128,9 @@ am
 ## 变量内容删除
 
 
-将`www.`删除
+
 ```shell
-
-
+将www.删除
 [root@backup scripts]# echo ${url/www./}
 25share.com
 ```
