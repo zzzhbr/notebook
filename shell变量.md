@@ -1,4 +1,4 @@
-# 变量内容删除替换
+# 变量内容查看
 
 定义变量：
 ```shell
@@ -40,7 +40,7 @@ I am smart
 10
 ```
 
-
+# 变量内容删除
 ## 变量内容切片${Valure:N}
 ```shell
 [root@backup scripts]# echo ${Valure:2}  #切掉前2个字符
