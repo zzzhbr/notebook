@@ -211,8 +211,20 @@ a++ 与 ++a的区别
 
 [root@backup ~]# expr 1+2|bc
 3
+
+
 [root@backup ~]# expr 1 + 2
 3
+[root@backup ~]# expr 1 - 2
+-1
+[root@backup ~]# expr  2 * 4
+expr: 语法错误
+[root@backup ~]# expr  2 \* 4
+8
+[root@backup ~]# expr  4 / 2 
+2
+[root@backup ~]# expr  3 % 2  #取余
+1
 
 ```
 
