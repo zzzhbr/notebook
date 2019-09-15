@@ -7,11 +7,16 @@ I am smart
 ```
 
 
-## 获取变量内容字符长度${#Valure}
+## 获取变量内容字符长度
+
+1. ${#Valure}
 ```shell
 [root@backup scripts]# echo ${#Valure}
 10
 ```
+2. wc
+
+3. awk '{print length}'
 
 ## 变量内容切片${Valure:N}
 ```shell
