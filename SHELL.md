@@ -14,7 +14,14 @@ test.sh
 test.sh
 
 ```
+```shell
+basename：无论是否全路径，获取的都是名字
+[ ]# basename test.sh
+test.sh
+[ ]# basename /server/scripts/test.sh
+test.sh
 
+```
 
-$n
-$n  脚本的第n个参数 
+## $n
+> 脚本的第n个参数 
