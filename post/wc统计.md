@@ -31,7 +31,8 @@ the following order: newline, word, character, byte, maximum line length.
 I am smart      10
 I have a dog    12
 we are friends  14
-ohhhhh enjoy it!!!!
+ohhhhh enjoy it!!!! 19
+总字数应该为55
 ```
 ```shell
 [root@backup scripts]# wc -c 1.txt   #统计字节数
@@ -46,6 +47,7 @@ ohhhhh enjoy it!!!!
 13 1.txt
 ```
 
+但是实际字数统计的话应该为55
 
 
 
