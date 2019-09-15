@@ -48,5 +48,9 @@ ohhhhh enjoy it!!!! 19
 ```
 
 但是实际字数统计的话应该为55，但是可以看到无论`-c` 还是 `-m`显示的都是59，这是为什么？
-其实是因为制表符的
+
+**其实是因为制表符的原因！**
+
 ![title](https://raw.githubusercontent.com/zzzhbr/notebook-image/master/notebook/2019/09/15/1568532456955-1568532456983.png)
+
+所以其实这里可以看出，其实wc -L统计字数应该是最为精准的，但是只适用于当行文件 或者是 变量
