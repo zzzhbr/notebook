@@ -15,7 +15,7 @@ I am smart
 10
 ```
 2. wc
-由结果中看 wc -L
+由结果中看 <font color=red>`wc -L`<font> 最为准确
 ```shell
 [root@backup scripts]# echo ${Valure} |wc -c
 11
