@@ -46,7 +46,8 @@ I am smart
 ```
 
 # 变量内容删除替换
-
+${Valure:N} 删除到
+${Valure:N:N} 
 ## 变量内容切片${Valure:N}
 ```shell
 [root@backup scripts]# echo ${Valure:2}  #切掉前2个字符
@@ -56,6 +57,10 @@ am
 ```
  
 ## 变量内容删除
+
+
+
+
 url=www.25share.com
 echo $url
 
