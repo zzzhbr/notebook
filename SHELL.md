@@ -86,7 +86,7 @@ dog
 - a
 - dog
 
-
 ```
-
+## $?
+> 上一条命令的执行结果，0为成功，非0
 <font color=red>red</font>
