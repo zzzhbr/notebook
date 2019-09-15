@@ -16,12 +16,12 @@ test.sh
 ```
 ```shell
 dirname：无论是否全路径，获取的都是路径名
-[ ]# basename test.sh
-test.sh
-[ ]# basename /server/scripts/test.sh
-test.sh
-
+[root@backup scripts]# dirname 1.sh
+.
+[root@backup scripts]# dirname /server/scripts/1.sh
+/server/scripts
 ```
 
 ## $n
 > 脚本的第n个参数 
+$$ 
