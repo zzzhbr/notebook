@@ -199,4 +199,14 @@ a++ 与 ++a的区别
 
 ## 变量数值运算
 ### 1.整数运算 expr + - \* / %
+```shell
+[root@backup ~]# expr 1+2
+1+2
+[root@backup ~]# expr $a+$b
+2+2
+[root@backup ~]# expr 1+2|bc
+-bash: bc: 未找到命令
+
+```
+
 
