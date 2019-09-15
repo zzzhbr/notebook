@@ -15,6 +15,15 @@ I am smart
 10
 ```
 2. wc
+由结果中看 wc -L
+```shell
+[root@backup scripts]# echo ${Valure} |wc -c
+11
+[root@backup scripts]# echo ${Valure} |wc -L
+10
+[root@backup scripts]# echo ${Valure} |wc -l
+1
+```
 
 3. awk '{print length}'
 
