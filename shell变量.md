@@ -207,6 +207,13 @@ a++ 与 ++a的区别
 [root@backup ~]# expr 1+2|bc
 -bash: bc: 未找到命令
 
+[root@backup ~]# yum install bc -y
+
+[root@backup ~]# expr 1+2|bc
+3
+[root@backup ~]# expr 1 + 2
+3
+
 ```
 
 
