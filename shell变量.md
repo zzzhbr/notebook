@@ -132,14 +132,21 @@ www
 [root@backup scripts]# echo ${url/www./}
 25share.com
 
+将
+[root@backup scripts]# echo ${url/./,}
+www,25share.com
+[root@backup scripts]# echo ${url//./,}
+www,25share,com
+
+
+
+
 例子：
 URL=www.25.com.share.com.25
 [root@backup scripts]# echo ${URL/com/cn}
-www.25.cn.share.com
+www.25.cn.share.com.25
 [root@backup scripts]# echo ${URL//com/cn}
-www.25.cn.share.cn
-
-
+www.25.cn.share.cn.25
 ```
 
 
