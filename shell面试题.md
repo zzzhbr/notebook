@@ -9,3 +9,19 @@ am
 
 ```
 
+解法二：
+```shell
+[root@backup scripts]# echo "I am smart"|awk '{for(i=1;i<NF;i++)if(length($i)<3) print $i}'
+I
+am
+
+#这里的空格可有可无，都能正确执行
+[root@backup scripts]# echo "I am smart"|awk '{for(i=1;i<NF;i++) if(length($i)<3) print $i}'
+I
+am
+
+[root@backup scripts]# echo "I am smart"|awk '{for (i=1;i<NF;i++) if (length($i)<3) print $i}'
+I
+am
+
+```
