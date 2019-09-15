@@ -84,11 +84,11 @@ am
 |${Valure##匹配规则}|从变量**开头**进行匹配,把匹配到的 **最后一个的** 前面的内容全部删除|
 
 ```shell
-将匹配到的第一个.前面的任意内容  ==>  www.删除
+从头开始将匹配到的第一个.前面的任意内容删除  ==>  www.删除
 [root@backup scripts]# echo ${url#*.}
 25share.com
 
-将匹配到的最后一个.  ==>  www.25share.删除
+从头开始将匹配到的最后一个.匹配到的任意内容  ==>  www.25share.删除
 [root@backup scripts]# echo ${url##*.}
 com
 ```
@@ -104,6 +104,15 @@ com
 
 
 
+```shell
+从尾部开始将匹配到的第一个.后面的任意内容删除  ==>  .com删除
+[root@backup scripts]# echo ${url%.*}
+www.25share
+
+
+
+从尾部开始将匹配到的第一个.后面的任意内容删除  ==>  .com删除
+```
 
 
 
