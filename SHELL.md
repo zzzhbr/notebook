@@ -95,5 +95,9 @@ dog
 当系统执行多个shell脚本时使用
 
 ## $!
-> 段落引用
+> 获取上一个脚本的PID
+拍错时可能会用到
+
+## $_
+
 <font color=red>red</font>
