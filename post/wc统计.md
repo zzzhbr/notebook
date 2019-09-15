@@ -28,9 +28,9 @@ the following order: newline, word, character, byte, maximum line length.
 > ohhhhh enjoy it!!!!
 > EOF
 [root@backup scripts]# cat 1.txt 
-I am smart
-I have a dog
-we are friends
+I am smart      10
+I have a dog    12
+we are friends  14
 ohhhhh enjoy it!!!!
 ```
 ```shell
@@ -40,9 +40,9 @@ ohhhhh enjoy it!!!!
 59 1.txt
 [root@backup scripts]# wc -l 1.txt  #统计行数
 4 1.txt
-[root@backup scripts]# wc -L 1.txt  #最长行数
+[root@backup scripts]# wc -L 1.txt  #统计最长行数的字数长度
 19 1.txt
-[root@backup scripts]# wc -w 1.txt 
+[root@backup scripts]# wc -w 1.txt  #统计单词数
 13 1.txt
 ```
 
