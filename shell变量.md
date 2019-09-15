@@ -29,6 +29,11 @@ I am smart
 ```
 
 3. awk '{print length}'
+```shell
+[root@backup scripts]# echo $Valure | awk '{print length}'
+10
+
+```
 
 ## 变量内容切片${Valure:N}
 ```shell
