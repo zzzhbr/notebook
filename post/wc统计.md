@@ -47,8 +47,6 @@ ohhhhh enjoy it!!!! 19
 13 1.txt
 ```
 
-但是实际字数统计的话应该为55
-
-
-
+但是实际字数统计的话应该为55，但是可以看到无论`-c` 还是 `-m`显示的都是59，这是为什么？
+其实是因为制表符的
 ![title](https://raw.githubusercontent.com/zzzhbr/notebook-image/master/notebook/2019/09/15/1568532456955-1568532456983.png)
