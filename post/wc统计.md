@@ -1,4 +1,4 @@
-```
+```shell
 [root@backup scripts]# wc --help
 用法：wc [选项]... [文件]...
 　或：wc [选项]... --files0-from=F
@@ -19,6 +19,20 @@ the following order: newline, word, character, byte, maximum line length.
       --version		显示版本信息并退出
 ```
 
+测试文档:
+```shell
+[root@backup scripts]# cat>1.txt<<EOF
+> I am smart
+> I have a dog
+> we are friends
+> ohhhhh enjoy it!!!!
+> EOF
+[root@backup scripts]# cat 1.txt 
+I am smart
+I have a dog
+we are friends
+ohhhhh enjoy it!!!!
+```
 
 
 
