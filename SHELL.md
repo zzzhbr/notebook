@@ -101,4 +101,8 @@ dog
 ## $_
 > 获取上一个脚本的最后一个参数
 
+
+# read从键盘读取参数
+
+
 <font color=red>red</font>
