@@ -37,6 +37,22 @@ ${12}
 ## $#
 > 脚本传参的总个数
 
+```shell
+[root@backup scripts]# cat canshu.sh 
+#!/bin/bash
+echo this is $0
+echo "$1 $2"
+echo $#
+
+[root@backup scripts]# sh canshu.sh 1 2
+this is canshu.sh
+1 2
+2
+```
+
+
+
+
 ## $* 
 > 获取传参的所有参数，如果不加双引号和$@相同
 > 如果加上双引号，获取的是一个整体
@@ -44,4 +60,5 @@ ${12}
 ## $@
 > 获取传参的所有参数，如果不加双引号和$*相同
 > 如果加上双引号，获取的为单个参数
+
 
