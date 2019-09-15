@@ -92,4 +92,7 @@ dog
 
 ##$$
 > 获取当前shell的进程PID
+当系统执行多个shell脚本时使用
+
+
 <font color=red>red</font>
