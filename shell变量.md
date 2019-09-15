@@ -252,9 +252,10 @@ expr: 语法错误
 ```
 
 
-### 3.整数运算 let + - * / %
+### 3.小数运算 bc + - * / %
 <font color=red>只支持**整数**运算，不支持小数</font>
 
+```shell
 [root@backup ~]# expr 1+2|bc
 -bash: bc: 未找到命令
 
@@ -262,3 +263,8 @@ expr: 语法错误
 
 [root@backup ~]# expr 1+2|bc
 3
+
+[root@backup ~]# echo 1+2|bc
+3
+
+```
