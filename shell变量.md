@@ -32,8 +32,14 @@ I am smart
 ```shell
 [root@backup scripts]# echo $Valure | awk '{print length}'
 10
-
 ```
+
+4. expr length
+```shell
+[root@backup scripts]# expr length "$Valure"
+10
+```
+
 
 ## 变量内容切片${Valure:N}
 ```shell
