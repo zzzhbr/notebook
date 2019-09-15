@@ -46,9 +46,13 @@ I am smart
 ```
 
 # 变量内容删除替换
-${Valure:N} 删除到
-${Valure:N:N} 
-## 变量内容切片${Valure:N}
+${Valure:N} 删除到第几个字符
+${Valure:N:N}  第二个N代表步长
+
+${Valure#匹配规则}
+
+
+## 变量内容切片
 ```shell
 [root@backup scripts]# echo ${Valure:2}  #切掉前2个字符
 am smart
