@@ -99,5 +99,6 @@ dog
 拍错时可能会用到
 
 ## $_
+> 获取上一个脚本的最后一个参数
 
 <font color=red>red</font>
