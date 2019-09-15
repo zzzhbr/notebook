@@ -132,9 +132,11 @@ www
 [root@backup scripts]# echo ${url/www./}
 25share.com
 
-将
+符合旧字符串的 .  第一个匹配到的会被新字符串 , 取代
 [root@backup scripts]# echo ${url/./,}
 www,25share.com
+
+符合旧字符串的 .  全部匹配到的会被新字符串 , 取代
 [root@backup scripts]# echo ${url//./,}
 www,25share,com
 
