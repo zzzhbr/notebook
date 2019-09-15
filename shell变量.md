@@ -206,15 +206,7 @@ a++ 与 ++a的区别
 1+2
 [root@backup ~]# expr $a+$b
 2+2
-[root@backup ~]# expr 1+2|bc
--bash: bc: 未找到命令
-
-[root@backup ~]# yum install bc -y
-
-[root@backup ~]# expr 1+2|bc
-3
-
-
+#前后需要空格
 [root@backup ~]# expr 1 + 2  #加法
 3
 [root@backup ~]# expr 1 - 2  #减法
@@ -246,3 +238,17 @@ expr: 语法错误
 
 ```
  echo $(()) 运算效率最高
+
+### 3.整数运算 let + - * / %
+<font color=red>只支持**整数**运算，不支持小数</font>
+
+
+
+
+[root@backup ~]# expr 1+2|bc
+-bash: bc: 未找到命令
+
+[root@backup ~]# yum install bc -y
+
+[root@backup ~]# expr 1+2|bc
+3
