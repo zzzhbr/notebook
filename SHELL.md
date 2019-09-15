@@ -90,9 +90,10 @@ dog
 ## $?
 > 上一条命令的执行结果，<font color=red>**0**</font> 为成功，<font color=red>**非0**</font> 为不成功
 
-##$$
+## $$
 > 获取当前shell的进程PID
 当系统执行多个shell脚本时使用
 
-
+## $!
+> 段落引用
 <font color=red>red</font>
