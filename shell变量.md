@@ -110,8 +110,9 @@ com
 www.25share
 
 
-
-从尾部开始将匹配到的第一个.后面的任意内容删除  ==>  .com删除
+从尾部开始将匹配到的最后一个.后面的任意内容删除  ==>  .25share.com删除
+[root@backup scripts]# echo ${url%%.*}
+www
 ```
 
 
@@ -130,6 +131,10 @@ www.25share
 将www.删除
 [root@backup scripts]# echo ${url/www./}
 25share.com
+
+例子：
+URL=www.25.comshare.com
+
 ```
 
 
