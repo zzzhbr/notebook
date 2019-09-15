@@ -230,7 +230,7 @@ expr: 语法错误
 
 ```
 
-### 2.整数运算 echo $(()) + - * / %
+### 2.整数运算 echo $(()) h或者 echo $[] + - * / %
 <font color=red>只支持**整数**运算，不支持小数</font>
 ```shell
 [root@backup ~]# echo $((1+2))
