@@ -158,9 +158,12 @@ www.25.cn.share.cn.25
 ## 变量自增
 a++与++a的区别
 - a++ 先引用后增加
+- > 
 - ++a 先增加后引用
+- 
 
 ```shell
+一、
 [root@backup ~]# a=1
 [root@backup ~]# b=1
 [root@backup ~]# let x=a+1
@@ -174,6 +177,22 @@ a++与++a的区别
 [root@backup ~]# echo $b
 2
 
+
+
+二、
+[root@backup ~]# a=1
+[root@backup ~]# b=1
+[root@backup ~]# let x=++a
+[root@backup ~]# 
+[root@backup ~]# let y=b++
+[root@backup ~]# echo $x
+2
+[root@backup ~]# echo $y
+1
+[root@backup ~]# echo $a
+2
+[root@backup ~]# echo $b
+2
 ```
 
 
