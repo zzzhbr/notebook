@@ -199,6 +199,8 @@ a++ 与 ++a的区别
 
 ## 变量数值运算
 ### 1.整数运算 expr + - \* / %
+只整数运算，不支持小数
+
 ```shell
 [root@backup ~]# expr 1+2
 1+2
@@ -213,15 +215,15 @@ a++ 与 ++a的区别
 3
 
 
-[root@backup ~]# expr 1 + 2
+[root@backup ~]# expr 1 + 2  #加法
 3
-[root@backup ~]# expr 1 - 2
+[root@backup ~]# expr 1 - 2  #减法
 -1
-[root@backup ~]# expr  2 * 4
+[root@backup ~]# expr  2 * 4 #默认不支持乘，需要转义
 expr: 语法错误
-[root@backup ~]# expr  2 \* 4
+[root@backup ~]# expr  2 \* 4 #乘法
 8
-[root@backup ~]# expr  4 / 2 
+[root@backup ~]# expr  4 / 2 #除法
 2
 [root@backup ~]# expr  3 % 2  #取余
 1
