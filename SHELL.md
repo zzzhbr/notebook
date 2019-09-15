@@ -65,6 +65,8 @@ this is canshu.sh
 ```shell
 [root@backup scripts]# set -- "I have" a  dog
 #用 set 模拟传参
+
+#不加双引号，效果一致
 [root@backup scripts]# for i in $*;do echo $i;done
 I
 have
@@ -75,12 +77,14 @@ I
 have
 a
 dog
+
+#加了双引号的不同
 [root@backup scripts]# for i in "$*";do echo $i;done
-I have a dog
+- I have a dog
 [root@backup scripts]# for i in "$@";do echo $i;done
-I have
-a
-dog
++ I have
++ a
++ dog
 
 
 ```
