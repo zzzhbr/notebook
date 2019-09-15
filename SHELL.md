@@ -62,7 +62,7 @@ this is canshu.sh
 > 如果加上双引号，获取的为单个参数
 
 
-```shell
+```diff shell
 [root@backup scripts]# set -- "I have" a  dog
 #用 set 模拟传参
 
@@ -82,9 +82,9 @@ dog
 [root@backup scripts]# for i in "$*";do echo $i;done
 - I have a dog
 [root@backup scripts]# for i in "$@";do echo $i;done
-+ I have
-+ a
-+ dog
+- I have
+- a
+- dog
 
 
 ```
