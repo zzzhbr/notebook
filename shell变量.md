@@ -230,6 +230,19 @@ expr: 语法错误
 
 ```
 
-### 2.整数运算 echo (()) + - * / %
+### 2.整数运算 echo $(()) + - * / %
 <font color=red>只支持**整数**运算，不支持小数</font>
+```shell
+[root@backup ~]# echo $((1+2))
+3
+[root@backup ~]# echo $((1-2))
+-1
+[root@backup ~]# echo $((1*2))
+2
+[root@backup ~]# echo $((4/2))
+2
+[root@backup ~]# echo $((4%2))
+0
+
+```
 
