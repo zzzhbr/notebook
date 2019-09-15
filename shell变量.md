@@ -13,6 +13,16 @@ I am smart
 10
 ```
 
+## 变量内容切片${Valure:N}
+```shell
+[root@backup scripts]# echo ${Valure:2}  #切掉前2个字符
+am smart
+[root@backup scripts]# echo ${Valure:2:2}
+am
+
+
+```
+ 
 
 
 
