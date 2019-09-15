@@ -53,4 +53,4 @@ ohhhhh enjoy it!!!! 19
 
 ![title](https://raw.githubusercontent.com/zzzhbr/notebook-image/master/notebook/2019/09/15/1568532456955-1568532456983.png)
 
-所以其实这里可以看出，其实wc -L统计字数应该是最为精准的，但是只适用于当行文件 或者是 变量
+所以其实这里可以看出，其实wc -L统计字数应该是最为精准的，但是只适用于 **单行文件** 或者是 **变量**（因为变量赋值一般都是一行）
