@@ -46,10 +46,18 @@ I am smart
 ```
 
 # 变量内容删除替换
-${Valure:N} 删除到第几个字符
-${Valure:N:N}  第二个N代表步长
+|column1|column2|
+|-|-|
+|${Valure:N} |删除到第几个字符|
+|${Valure:N:N} | 第二个N代表步长|
 
-${Valure#匹配规则}
+|column1|column2|
+|-|-||||
+|||
+|||
+|||
+
+${Valure#匹配规则}  从变量开头进行匹配
 ${Valure##匹配规则}
 
 ${Valure%匹配规则}
