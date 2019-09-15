@@ -93,10 +93,7 @@ am
  
 ## 变量内容删除
 
-
-
-
-url=www.25share.com
-echo $url
+`url=www.25share.com`
+`echo $url`
 
 
