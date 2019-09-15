@@ -17,11 +17,6 @@ the following order: newline, word, character, byte, maximum line length.
   -w, --words			显示单词计数
       --help		显示此帮助信息并退出
       --version		显示版本信息并退出
-
-GNU coreutils online help: <http://www.gnu.org/software/coreutils/>
-请向<http://translationproject.org/team/zh_CN.html> 报告wc 的翻译错误
-要获取完整文档，请运行：info coreutils 'wc invocation'
-
 ```
 
 
