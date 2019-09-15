@@ -1,6 +1,7 @@
 # 变量内容查看
 
 定义变量：
+
 ```shell
 [root@backup scripts]# echo $Valure
 I am smart
@@ -41,6 +42,7 @@ I am smart
 ```
 
 # 变量内容删除
+
 ## 变量内容切片${Valure:N}
 ```shell
 [root@backup scripts]# echo ${Valure:2}  #切掉前2个字符
@@ -49,6 +51,7 @@ am smart
 am
 ```
  
-
+# 变量内容替换
+$
 
 
