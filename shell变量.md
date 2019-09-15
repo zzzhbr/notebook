@@ -16,6 +16,7 @@ I am smart
 ```
 2. wc
 由结果中看 `wc -L` 最为准确
+-L 显示最长行的长度;但是变量赋值一般是只有一行
 ```shell
 [root@backup scripts]# echo ${Valure} |wc -c
 11
@@ -23,6 +24,8 @@ I am smart
 10
 [root@backup scripts]# echo ${Valure} |wc -l
 1
+[root@backup scripts]# echo ${Valure} |wc -m
+11
 ```
 
 3. awk '{print length}'
