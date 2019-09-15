@@ -242,6 +242,14 @@ expr: 语法错误
 ### 3.整数运算 let + - * / %
 <font color=red>只支持**整数**运算，不支持小数</font>
 
+先定义变量然后echo得到结果
+
+```shell
+[root@backup ~]# let sum=4+2
+[root@backup ~]# echo $sum
+6
+
+```
 
 
 
