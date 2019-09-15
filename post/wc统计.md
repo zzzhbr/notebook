@@ -33,6 +33,18 @@ I have a dog
 we are friends
 ohhhhh enjoy it!!!!
 ```
+```shell
+[root@backup scripts]# wc -c 1.txt   #统计字节数
+59 1.txt
+[root@backup scripts]# wc -m 1.txt  #统计字符数
+59 1.txt
+[root@backup scripts]# wc -l 1.txt  #统计行数
+4 1.txt
+[root@backup scripts]# wc -L 1.txt  #最长行数
+19 1.txt
+[root@backup scripts]# wc -w 1.txt 
+13 1.txt
+```
 
 
 
