@@ -84,10 +84,13 @@ am
 |${Valure##匹配规则}|从变量**开头**进行匹配,把匹配到的 **最后一个的** 前面的内容全部删除|
 
 ```shell
-将www.删除
+将匹配到的第一个.  ==>  www.删除
 [root@backup scripts]# echo ${url#*.}
 25share.com
 
+将匹配到的第一个.  ==>  www.删除
+[root@backup scripts]# echo ${url##*.}
+com
 ```
 
 
@@ -117,21 +120,15 @@ am
 |${Valure/旧字符串/新字符串}|符合旧字符串的变量内容，**第一个** 会被新字符串取代|
 |${Valure//旧字符串/新字符串}|符合旧字符串的变量内容，**全部的** 会被新字符串取代|
 
-
-
-
-
-
-## 变量内容切片
-
- 
-## 变量内容删除
-
-
-
 ```shell
 将www.删除
 [root@backup scripts]# echo ${url/www./}
 25share.com
 ```
+
+
+
+
+
+
 
