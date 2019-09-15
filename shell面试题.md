@@ -28,5 +28,15 @@ am
 
 解法三：
 ```shell
+[root@backup scripts]# vim 2.sh
+#!/bin/bash 
+for i in I am smart 
+do 
+  if [ $(#i) -lt 3 ] 
+  then 
+    echo $i 
+  fi 
+done 
 
+# $(#i)  取 字符串 长度
 ```
