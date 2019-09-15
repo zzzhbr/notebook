@@ -85,6 +85,7 @@ I am smart
 
 ## 变量内容切片
 ```shell
+[root@backup scripts]# Valure="I am smart"
 [root@backup scripts]# echo ${Valure:2}  #切掉前2个字符
 am smart
 [root@backup scripts]# echo ${Valure:2:2} #将从第3个字符开始取后面2个字符
