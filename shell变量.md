@@ -50,6 +50,15 @@ ${Valure:N} 删除到第几个字符
 ${Valure:N:N}  第二个N代表步长
 
 ${Valure#匹配规则}
+${Valure##匹配规则}
+
+${Valure%匹配规则}
+${Valure%%匹配规则}
+
+${Valure/旧字符串/新字符串}
+${Valure//旧字符串/新字符串}
+
+
 
 
 ## 变量内容切片
