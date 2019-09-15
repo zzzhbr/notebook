@@ -103,6 +103,6 @@ dog
 
 
 # read从键盘读取参数
-
+> read -p ""
 
 <font color=red>red</font>
