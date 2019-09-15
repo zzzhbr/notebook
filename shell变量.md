@@ -101,7 +101,7 @@ am
 [root@backup scripts]# echo ${url:4}
 25share.com
 
-
-
+[root@backup scripts]# echo ${url/www./}
+25share.com
 ```
 
