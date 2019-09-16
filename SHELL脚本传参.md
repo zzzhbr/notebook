@@ -115,6 +115,11 @@ echo $a $b
 ```
 ## 第二种
 ```shell
-
+a=$1
+b=$2
+echo $a $b
 ```
 ## 第三种
+```shell
+echo $1 $2
+```
