@@ -107,3 +107,14 @@ dog
 
 
 # 变量传参方式
+
+## 第一种
+```shell
+read -t 5 -p "please input num: " a b
+echo $a $b
+```
+## 第二种
+```shell
+
+```
+## 第三种
