@@ -271,3 +271,12 @@ expr: 语法错误
 ```
 
 ### 4.小数运算 awk + - * / %
+```shell
+[root@backup ~]# echo 2 5 | awk '{print $1*$2}'
+10
+
+[root@backup ~]# awk 'BEGIN{print 1+2}'
+3
+
+
+```
