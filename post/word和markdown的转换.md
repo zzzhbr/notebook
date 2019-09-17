@@ -6,4 +6,4 @@ Markdown plugin for Microsoft Word
 这是他的功能：
 ![功能展示](https://raw.githubusercontent.com/zzzhbr/notebook-image/master/notebook/2019/09/17/1568691527924-1568691527972.png)
 
-就是一个Copy Markdown和Paste Markdown
+就是Copy Markdown（拷贝）和Paste Markdown（黏贴）的功能
