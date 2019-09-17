@@ -13,4 +13,4 @@ Markdown plugin for Microsoft Word
 
 word直接打开markdown文件，大致上布局也没问题，同样的是图片有问题
 
-要确保
+图片在image目录中
