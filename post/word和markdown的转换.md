@@ -7,3 +7,5 @@ Markdown plugin for Microsoft Word
 ![功能展示](https://raw.githubusercontent.com/zzzhbr/notebook-image/master/notebook/2019/09/17/1568691527924-1568691527972.png)
 
 就是Copy Markdown（拷贝）和Paste Markdown（黏贴）的功能
+
+如果在word里编辑好富文本，然后用Copy Markdown（拷贝），格式没多大问题，最重要的就是图片的问题了
