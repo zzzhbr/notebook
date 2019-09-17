@@ -11,4 +11,4 @@ Markdown plugin for Microsoft Word
 如果在word里编辑好富文本，然后用Copy Markdown（拷贝），格式没多大问题，最重要的就是图片的问题了
 
 
-word直接打开
+word直接打开markdown文件，大致上布局也没问题，同样的是图片有问题
