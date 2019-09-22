@@ -20,10 +20,3 @@ word直接打开markdown文件，大致上布局也没问题，同样的是图�
 所以必须保证markdown与media目录在一起，才能显示图片
 所以在word中导出为md文件时会同步生成一个media目录，放一起即可
 
-```shell
-#!/bin/bash
-gaolkiang
-ls
-cd
-
-```
