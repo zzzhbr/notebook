@@ -45,4 +45,5 @@ ssh -T git@github.com
 hexo clean // 清除缓存 网页正常情况下可以忽略此条命令
 hexo g // 生成静态网页
 hexo s // 启动服务器
+hexo d //推送到git上
 ```
