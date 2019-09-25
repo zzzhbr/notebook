@@ -20,10 +20,6 @@ npm install hexo-cli -g
 然后进入blog目录,按住shift点击在此处打开命令行终端
 ```
 npm install
-npm install
-npm install hexo-deployer-git --save // 文章部署到 git 的模块
-npm install hexo-generator-feed --save // 建立 RSS 订阅
-npm install hexo-generator-sitemap --save // 建立站点地图
 ```
 
 # 4. 生成新的ssh-key
