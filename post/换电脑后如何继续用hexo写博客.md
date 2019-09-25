@@ -23,4 +23,4 @@ npm install hexo-cli -g
 ssh-keygen -t rsa -C "your_email@example.com"
 ```
 
-
+一般默认一路回车就好
