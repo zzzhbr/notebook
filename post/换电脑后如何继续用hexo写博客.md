@@ -17,6 +17,10 @@
 ```
 npm install hexo-cli -g
 ```
+然后进入blog目录,按住shift点击在此处打开命令行终端
+```
+npm install
+
 
 # 4. 生成新的ssh-key
 ```
