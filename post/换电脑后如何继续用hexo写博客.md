@@ -19,5 +19,8 @@ npm install hexo-cli -g
 ```
 
 # 4. 生成新的ssh-key
+```
+ssh-keygen -t rsa -C "@邮箱"
+```
 
 
