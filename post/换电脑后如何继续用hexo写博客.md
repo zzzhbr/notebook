@@ -15,4 +15,9 @@
 安装hexo
 在CMD中输入安装指令，可以使用`-g`全局安装
 ```
+npm install hexo-cli -g
+```
+
+# 4. 生成新的ssh-key
+
 
