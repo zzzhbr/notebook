@@ -26,6 +26,7 @@ npm install
 ```
 ssh-keygen -t rsa -C "your_email@example.com"
 ```
+your_email@example.com改成你的账户邮箱即可
 
 一般默认一路回车就好
 
@@ -71,3 +72,4 @@ Branch 'master' set up to track remote branch 'master' from 'git@github.com:zzzh
  git config --global user.email "you@example.com"
  git config --global user.name "Your Name"
 ```
+两条命令的双引号里的内容改成你自己的就可以
