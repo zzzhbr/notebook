@@ -1,4 +1,4 @@
-新建一个文本，复制上以上内容：
+打开记事本软件，新建一个文本，复制上以上内容：
 ```
 Windows Registry Editor Version 5.00
 
@@ -22,3 +22,5 @@ Windows Registry Editor Version 5.00
 
 @="NOTEPAD.EXE %1"
 ```
+
+然后存为 `txt.reg`
