@@ -24,3 +24,8 @@ Windows Registry Editor Version 5.00
 ```
 
 然后存为 `txt.reg`
+> 文件名字任意，但是后缀必须是reg注册表文件
+
+然后双击导入`txt.reg`
+
+如果立即查看还是右键没有新建文本文件，那么
