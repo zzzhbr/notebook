@@ -48,3 +48,26 @@ hexo g // 生成静态网页
 hexo s // 启动服务器
 hexo d //推送到git上
 ```
+
+报错
+```
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'zzz@zzz-PC.(none)')
+Warning: Permanently added the RSA host key for IP address '13.250.177.223' to the list of known hosts.
+Everything up-to-date
+Branch 'master' set up to track remote branch 'master' from 'git@github.com:zzzhbr/zzzhbr.github.io.git'.
+
+*** Please tell me who you are.
+```
+也比较简单，只需要将
+```
+ git config --global user.email "you@example.com"
+ git config --global user.name "Your Name"
+```
