@@ -39,3 +39,10 @@ ssh -T git@github.com
 若弹出Are you sure you want to continue connecting (yes/no)? 时输入 yes 确认。
 接着出现 Hi xxx! You've successfully authenticated, but GitHub does not provide shell access. 则操作成功。
 ```
+
+然后可以用命令测试是否成功
+```
+hexo clean // 清除缓存 网页正常情况下可以忽略此条命令
+hexo g // 生成静态网页
+hexo s // 启动服务器
+```
